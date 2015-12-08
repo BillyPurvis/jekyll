@@ -5,14 +5,24 @@
     {% include head.html %}
     
     <body>
-    
-        {% include header.html %}
-        
-    </body>
-    
-    <div class="main-content">
+	
+	<div class="main-content">
+
+	<!-- Header Starts -->
+	<header class="primary-header">
+		{% include nav.html %}
+	</header>
+    <!-- Header Ends -->   
+
+    <!-- Jekyll Content Import Start --> 
         {{ content }}
-    </div>
+    <!-- Jekyll Content Import End --> 
     
-    {% include footer.html %}
+    <!-- Footer Start --> 
+   		{% include footer.html %}
+   	<!-- Footer End --> 
+   	</div>
+    
+    </body>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro|Lato' rel='stylesheet' type='text/css'>
 </html>

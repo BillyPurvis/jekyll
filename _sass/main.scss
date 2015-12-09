@@ -7,6 +7,7 @@ $primary-font-col: #000;
 $secondary-font-col: #fff;
 
 $primary-col: #000;
+$secondary-col: #fff;
 
 $low-font-weight: 100;
 
@@ -27,8 +28,12 @@ html {
     font-size: 18px;
     font-kerning: auto;
     letter-spacing: 0.1em;
+    box-sizing: border-box;
     color: $primary-font-col;
     font-family: 'Lato', sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 a {
     text-decoration: none;
@@ -125,7 +130,7 @@ svg {
     letter-spacing: 0.1em;
 }
 /*
- ** Work Items Styles
+ ** Work Home Items Styles
  */
 .work-grid {
     display: flex;
@@ -156,6 +161,87 @@ svg {
     font-weight: 100;
     @extend .sub-home-title;
 }
+/*
+ ** Work Page 
+ */
+ .project-container {
+    width: 100%;
+    text-align: center;
+    margin: 100px auto;
+    overflow: hidden;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+ }
+ .btn {
+    font-size: 90%;
+    position: relative;
+    margin: 10px 20px 0 0;
+    background: transparent;
+    border: 2px solid $primary-col;
+        &:after {
+            left: 0;
+            right: 0;
+            width: 0;
+            bottom: 0;
+            z-index: -1;
+            content: " ";
+            height: 100%;
+            margin: 0 auto;
+            position: absolute;
+            transition: width .2s;
+            background: $primary-col;
+        }
+        &:hover:after{
+            width: 100%;
+        }
+        a {
+            width: 100%;
+            height: 100%;
+            display: block;
+            padding: 10px 15px;
+            &:hover {
+                color: $secondary-font-col;
+            }
+        }
+ }
+
+  .alt-btn {
+    font-size: 90%;
+    position: relative;
+    margin: 20px auto;
+    background: transparent;
+    border: 2px solid $secondary-font-col;
+        &:after {
+            left: 0;
+            right: 0;
+            width: 0;
+            bottom: 0;
+            content: " ";
+            height: 100%;
+            margin: 0 auto;
+            position: absolute;
+            transition: width .2s;
+            background: $secondary-col;
+        }
+        &:hover:after{
+            width: 100%;
+        }
+        a {
+            width: 100%;
+            height: 100%;
+            display: block;
+            padding: 10px 15px;
+            color: $secondary-font-col;
+            &:hover {
+                z-index: 10;
+                color: $primary-col;
+                position: relative;
+            }
+        }
+ }
+
 /*
  ** Footer
  */

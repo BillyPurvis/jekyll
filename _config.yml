@@ -15,4 +15,4 @@ github_username:  BillyPuris
 markdown: kramdown
 
 # excludes
-exclude: [node_modules, gulpfile.js, package.json]
+exclude: [node_modules]

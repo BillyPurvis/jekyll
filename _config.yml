@@ -1,12 +1,9 @@
 # Site settings
 title: Billy Purvis | Front-End Developer In London
 email: purvisbilly@outlook.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: "Front-End Developer based in London, England. I work with jekyll, gulp, sass, javascript, jQuery and more"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://billypurvis.co.uk/temp/" # the base hostname & protocol for your site
+url: "http://billypurvis.co.uk/" # the base hostname & protocol for your site
 root: "../"
 twitter_username: mrmonkeytech
 github_username:  BillyPuris

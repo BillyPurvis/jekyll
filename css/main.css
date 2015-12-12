@@ -52,7 +52,7 @@ h3 {
 
 .primary-header {
   width: 100%;
-  height: 80px;
+  height: auto;
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1; }
@@ -240,12 +240,6 @@ a.alt-work-link {
     height: 100%; }
 
 /*
- ** Blog Page 
- */
-#blog-post {
-  width: 60% !important; }
-
-/*
  ** Footer
  */
 @media only screen and (min-width: 600px) {
@@ -275,4 +269,9 @@ a.alt-work-link {
   .work-item {
     width: 300px;
     height: 220px;
-    margin: 10px; } }
+    margin: 10px; }
+  /*
+     ** Blog Page 
+     */
+  #blog-post {
+    width: 60% !important; } }

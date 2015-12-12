@@ -13,7 +13,9 @@ $low-font-weight: 100;
 
 $primary-font: 'Lato', sans-serif;
 $secondary-font: 'Source Code Pro', sans-serif;
-
+::-webkit-scrollbar { 
+    display: none; 
+}
 // Generic
 .absolute {
     width: 100%;

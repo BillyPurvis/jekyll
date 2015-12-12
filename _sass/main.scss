@@ -64,6 +64,11 @@ h2,
 h3 {
     text-transform: uppercase;
 }
+.primary-header {
+    width: 100%;
+    height: 80px;
+    flex: 1;
+}
 .nav {
     ul {
         padding: 0;
@@ -79,6 +84,51 @@ h3 {
         }
     }
 }
+/*
+ ** Home Content
+ */
+.landing-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.landing-title {
+    flex: 2;
+    display: block;
+    min-width: 100%;
+}
+.landing-cto {
+    display: block;
+    min-width: 100%;
+}
+.home-title {
+    font-size: 160%;
+    letter-spacing: 0.2em;
+}
+.sub-home-title {
+    font-size: 80%;
+    font-weight: $low-font-weight;
+}
+.cto-title {
+    font-size: 60%;
+}
+svg {
+    width: 60px;
+    height: auto;
+}
+// .circle {
+//     stroke-dasharray: 35;
+//     animation: spin 10s infinite linear;
+// }
+// @keyframes spin {
+//     to {
+//         stroke-dashoffset: 1000;
+//     }
+// }
 /* Link Box Styles
  ** 
  */
@@ -141,45 +191,6 @@ a.alt-work-link {
   }
 }
 /*
- ** Home Content
- */
-.landing-container {
-    height: 90vh;
-    position: relative;
-}
-.landing-title {
-    top: 30%;
-    @extend .absolute;
-}
-.landing-cto {
-    bottom: 20px;
-    @extend .absolute;
-}
-.home-title {
-    font-size: 160%;
-    letter-spacing: 0.2em;
-}
-.sub-home-title {
-    font-size: 80%;
-    font-weight: $low-font-weight;
-}
-.cto-title {
-    font-size: 60%;
-}
-svg {
-    width: 60px;
-    height: auto;
-}
-.circle {
-    stroke-dasharray: 35;
-    animation: spin 10s infinite linear;
-}
-@keyframes spin {
-    to {
-        stroke-dashoffset: 1000;
-    }
-}
-/*
  ** Body Styles
 */
 .content-parent-cont {
@@ -216,13 +227,17 @@ svg {
     width: 100%;
     height: 250px;
     position: relative;
+    transition: .2s ease-in-out;
+    background: $primary-col;
 }
 .work-item-overlay {
     height: 100%;
     padding: 10px;
     @extend .absolute;
-    background: $primary-col;
     color: $secondary-font-col;
+}
+.work-item:first-child:hover {
+    
 }
 .work-title {
     font-size: 120%;
@@ -245,6 +260,12 @@ svg {
             height: 100%;
         }
  }
+/*
+ ** Blog Page 
+ */
+.blog-post {
+    width: 60%!important;
+}
 /*
  ** Footer
  */

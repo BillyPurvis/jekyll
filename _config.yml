@@ -13,3 +13,5 @@ markdown: kramdown
 
 # excludes
 exclude: [node_modules]
+
+permalink: /blog/:title/

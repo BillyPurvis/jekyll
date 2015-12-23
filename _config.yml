@@ -3,7 +3,7 @@ title: Billy Purvis | Front-End Developer In London
 email: purvisbilly@outlook.com
 description: "Front-End Developer based in London, England. I work with jekyll, gulp, sass, javascript, jQuery and more"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://billypurvis.co.uk/" # the base hostname & protocol for your site
+url: "http://billypurvis.github.io" # the base hostname & protocol for your site
 root: "../"
 twitter_username: mrmonkeytech
 github_username:  BillyPuris

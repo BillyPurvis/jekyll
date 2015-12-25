@@ -130,44 +130,12 @@ a.work-link {
   z-index: 10;
   margin: 10px 20px 0 0;
   border: 2px solid #000; }
-  a.work-link:hover {
-    color: #fff; }
-  a.work-link:before {
-    content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    width: 0;
-    height: 100%;
-    margin: 0 auto;
-    position: absolute;
-    transition: all .4s;
-    background: #000; }
-  a.work-link:hover:before {
-    width: 100%; }
 
 a.alt-work-link {
   z-index: 10;
   margin: 20px 0;
   color: #fff;
   border: 2px solid #fff; }
-  a.alt-work-link:hover, a.alt-work-link :focus {
-    color: #000; }
-  a.alt-work-link:before {
-    content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    width: 0;
-    height: 100%;
-    margin: 0 auto;
-    position: absolute;
-    transition: all .4s;
-    background: #fff; }
-  a.alt-work-link:hover:before, a.alt-work-link :focus:before {
-    width: 100%; }
 
 /*
  ** Body Styles
@@ -278,4 +246,39 @@ a.alt-work-link {
      ** Blog Page 
      */
   #blog-post {
-    width: 60% !important; } }
+    width: 60% !important; }
+  /*
+     ** Hover Effects 
+     */
+  a.work-link:hover {
+    color: #fff; }
+  a.work-link:before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 0;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    transition: all .4s;
+    background: #000; }
+  a.work-link:hover:before {
+    width: 100%; }
+  a.alt-work-link:hover, a.alt-work-link :focus {
+    color: #000; }
+  a.alt-work-link:before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 0;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    transition: all .4s;
+    background: #fff; }
+  a.alt-work-link:hover:before, a.alt-work-link :focus:before {
+    width: 100%; } }

@@ -147,25 +147,6 @@ a.work-link {
   z-index: 10;
   margin: 10px 20px 0 0;
   border: 2px solid $primary-col;
-  &:hover {
-    color: $secondary-font-col;
-  }
-  &:before {
-    content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    width: 0;
-    height: 100%;
-    margin: 0 auto;
-    position: absolute;
-    transition: all .4s;
-    background: $primary-col;
-  }
-  &:hover:before {
-    width: 100%;
-  }
 }
 
 a.alt-work-link {
@@ -173,25 +154,6 @@ a.alt-work-link {
   margin: 20px 0;
   color: $secondary-font-col;
   border: 2px solid $secondary-col;
-  &:hover, :focus {
-    color: $primary-font-col;
-  }
-  &:before {
-    content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    width: 0;
-    height: 100%;
-    margin: 0 auto;
-    position: absolute;
-    transition: all .4s;
-    background: $secondary-col;
-  }
-  &:hover:before,:focus:before {
-    width: 100%;
-  }
 }
 /*
  ** Body Styles
@@ -318,4 +280,52 @@ footer {}
     #blog-post {
         width: 60%!important;
     }
+    /*
+     ** Hover Effects 
+     */
+     a.work-link {
+  
+  &:hover {
+    color: $secondary-font-col;
+  }
+  &:before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 0;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    transition: all .4s;
+    background: $primary-col;
+  }
+  &:hover:before {
+    width: 100%;
+  }
+}
+
+a.alt-work-link {
+
+  &:hover, :focus {
+    color: $primary-font-col;
+  }
+  &:before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 0;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    transition: all .4s;
+    background: $secondary-col;
+  }
+  &:hover:before,:focus:before {
+    width: 100%;
+  }
+}
 }

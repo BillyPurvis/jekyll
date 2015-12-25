@@ -73,6 +73,7 @@ gulp.task('watch', function () {
     gulp.watch('./_sass/*.scss', ['sass', 'jekyll']);
     gulp.watch('./js/*.js', ['compressJs', 'jekyll']);
     gulp.watch(['**/*.html', '*/*.md'], ['jekyll']);
+    gulp.watch(['_config.yml'], ['jekyll']);
 });
 
 // Run sequentually. 

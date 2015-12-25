@@ -14,13 +14,13 @@ github_username:  BillyPuris
 
 excerpt_separator: <!--more-->
 
-# Pages permalink
-defaults:
-  -
-    scope:
-      type: "pages"
-    values:
-      permalink: /:path/:basename:output_ext
+# # Pages permalink
+# defaults:
+#   -
+#     scope:
+#       type: "pages"
+#     values:
+#       permalink: /:path/:basename:output_ext
 # Build settings
 markdown: kramdown
 

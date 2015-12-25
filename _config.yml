@@ -9,7 +9,7 @@ twitter_username: mrmonkeytech
 github_username:  BillyPuris
 
 # Blog Settings
-permalink: jekyll/blog/:title/
+permalink: blog/:title/
 excerpt_separator: <!--more-->
 
 # Build settings

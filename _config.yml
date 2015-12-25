@@ -3,24 +3,18 @@ title: Billy Purvis | Front-End Developer In London
 email: purvisbilly@outlook.com
 description: "Front-End Developer based in London, England. I work with jekyll, gulp, sass, javascript, jQuery and more"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://billypurvis.github.io/jekyll" # the base hostname & protocol for your site
+url: "http://billypurvis.github.io/jekyll/" # the base hostname & protocol for your site
 # url: "http://localhost:4000/" # the base hostname & protocol for your site
-permalink: pretty
+
 root: "../"
 twitter_username: mrmonkeytech
 github_username:  BillyPuris
 
 # Blog Settings
-
+permalink: pretty
 excerpt_separator: <!--more-->
 
-# # Pages permalink
-# defaults:
-#   -
-#     scope:
-#       type: "pages"
-#     values:
-#       permalink: /:path/:basename:output_ext
+
 # Build settings
 markdown: kramdown
 

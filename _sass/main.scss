@@ -173,7 +173,7 @@ a.alt-work-link {
   margin: 20px 0;
   color: $secondary-font-col;
   border: 2px solid $secondary-col;
-  &:hover {
+  &:hover, :focus {
     color: $primary-font-col;
   }
   &:before {
@@ -189,7 +189,7 @@ a.alt-work-link {
     transition: all .4s;
     background: $secondary-col;
   }
-  &:hover:before {
+  &:hover:before,:focus:before {
     width: 100%;
   }
 }

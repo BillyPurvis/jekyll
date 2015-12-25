@@ -152,7 +152,7 @@ a.alt-work-link {
   margin: 20px 0;
   color: #fff;
   border: 2px solid #fff; }
-  a.alt-work-link:hover {
+  a.alt-work-link:hover, a.alt-work-link :focus {
     color: #000; }
   a.alt-work-link:before {
     content: "";
@@ -166,7 +166,7 @@ a.alt-work-link {
     position: absolute;
     transition: all .4s;
     background: #fff; }
-  a.alt-work-link:hover:before {
+  a.alt-work-link:hover:before, a.alt-work-link :focus:before {
     width: 100%; }
 
 /*

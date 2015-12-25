@@ -11,9 +11,8 @@ twitter_username: mrmonkeytech
 github_username:  BillyPuris
 
 # Blog Settings
-permalink: pretty
+permalink: jekyll/blog/:title/
 excerpt_separator: <!--more-->
-
 
 # Build settings
 markdown: kramdown

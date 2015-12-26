@@ -4,7 +4,9 @@ layout: default
 {% for post in site.posts %}
 <div class="content-parent-cont blog-post">
     <div class="content-container">
-        
+        <h1 class="content-title">
+          {{ post.title }} 
+        </h1>
         <p class="content-p">
             {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
         </p>

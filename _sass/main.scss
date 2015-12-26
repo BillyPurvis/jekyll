@@ -67,6 +67,21 @@ h2,
 h3 {
     text-transform: uppercase;
 }
+/* 
+ ** Social Icon styles
+ */
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+  padding: 0px 2px;
+}
+/* 
+ ** Header Styles
+ */
 .primary-header {
     width: 100%;
     height: auto;
@@ -232,7 +247,11 @@ a.alt-work-link {
 /*
  ** Footer
  */
-footer {}
+#default-footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
 
 @media only screen and (min-width: 600px){
     /*

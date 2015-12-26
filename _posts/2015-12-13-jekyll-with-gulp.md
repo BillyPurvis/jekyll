@@ -3,10 +3,6 @@ layout: blog
 title: Gulp With Jekyll
 ---
 
-{: .content-title}
-Gulp With Jekyll
-=============
-
 {: .content-p}
 Jekyll standalone is great. You can use it pretty easily to set up a blogging platform with the bonus of it being static; no more WordPress! Jekyll uses a Ruby Gem and currently is at 3.0.1. I used Jekyll for this site and another client rather than using a heavy CMS with huge bloat. 
 

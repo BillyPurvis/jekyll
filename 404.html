@@ -14,3 +14,11 @@ layout: default
 		Ah snap, you've 404'd!
 	</p>
 </div>
+<script type="text/javascript">
+	function redirect(){
+		window.setTimeout(function(){
+			window.location.href = {{ site.url }};
+		}, 5000);
+	}
+	redirect();
+</script>

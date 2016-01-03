@@ -123,7 +123,7 @@ ul.share-buttons li{
     flex-direction: column;
 }
 .landing-title {
-    flex: 2;
+    flex: 1;
     display: block;
     min-width: 100%;
 }
@@ -278,6 +278,9 @@ a.alt-work-link {
     /*
      ** Nav
      */
+    .nav {
+        padding-top: 2%;
+    }
     .nav ul li a {
         font-size: 90%;
     }

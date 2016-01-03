@@ -12,6 +12,10 @@ code {
   padding: 2px 10px;
   border-radius: 5px; }
 
+a.bold-link {
+  font-weight: bold;
+  text-decoration: underline; }
+
 html {
   font-size: 18px;
   -webkit-font-kerning: auto;
@@ -249,6 +253,11 @@ a.alt-work-link {
     font-size: 90%; }
   .cto-title {
     font-size: 70%; }
+  /*
+     ** Nav
+     */
+  .nav ul li a {
+    font-size: 90%; }
   /*
      ** Body Styles
      */

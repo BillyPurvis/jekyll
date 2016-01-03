@@ -22,7 +22,7 @@ html {
           font-kerning: auto;
   letter-spacing: 0.1em;
   box-sizing: border-box;
-  color: #3f3f3f;
+  color: #1D1D1D;
   font-family: "Lato", sans-serif; }
 
 button {
@@ -34,7 +34,7 @@ button {
 
 a {
   text-decoration: none;
-  color: #3f3f3f; }
+  color: #1D1D1D; }
 
 body {
   margin: 0;
@@ -301,7 +301,7 @@ a.alt-work-link {
   a.work-link:hover:before {
     width: 100%; }
   a.alt-work-link:hover, a.alt-work-link :focus {
-    color: #3f3f3f; }
+    color: #1D1D1D; }
   a.alt-work-link:before {
     content: "";
     top: 0;
